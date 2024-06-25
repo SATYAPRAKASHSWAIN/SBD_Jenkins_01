@@ -7,4 +7,4 @@ EXPOSE 8080
 ADD target/sbd_jenkins_01.jar sbd_jenkins_01.jar
 
 # Run the jar file 
-ENTRYPOINT ["java","-jar","sbd_jenkins_01.jar"]
+ENTRYPOINT ["java","-jar","/sbd_jenkins_01.jar"]
