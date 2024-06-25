@@ -15,7 +15,7 @@ class SbdJenkins01ApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(SbdJenkins01Application.class);
 
 	@Test
-	public  contextLoads() {
+	public  void contextLoads() {
 		logger.info("Test case executing ..............");
 		assertEquals(true, true);
 	}

@@ -49,6 +49,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>SBD_Jenkins_01</finalName>
 	</build>
 
 </project>
