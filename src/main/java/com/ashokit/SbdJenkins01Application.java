@@ -13,7 +13,7 @@ public class SbdJenkins01Application {
 	public static Logger logger=LoggerFactory.getLogger(SbdJenkins01Application.class);
 
 	@PostConstruct
-	public  intt() {
+	public void  intt() {
 		logger.info("Application started ...................");
 	}
 	
